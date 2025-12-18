@@ -6,7 +6,7 @@ const ExpenseTracker = () => {
   const [description, setDescription] = useState<string>("");
   const [amount, setAmount] = useState<number | "">("");
 
-  const handleAddExpense = () => {
+  // Handle AddExpense
     if (description.trim() === "" || amount === "") return;
 
     addExpense({
