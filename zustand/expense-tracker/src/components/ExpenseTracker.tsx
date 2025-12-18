@@ -15,7 +15,7 @@ const ExpenseTracker = () => {
       amount: Number(amount),
     });
 
-    setDescription("");
+  // Setting the state variables empty
     setAmount("");
   };
 
